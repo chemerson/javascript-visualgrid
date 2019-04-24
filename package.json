@@ -1,0 +1,27 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@applitools/eyes-selenium": "^4.15.0",
+    "chai": "^4.2.0",
+    "chromedriver": "^73.0.0",
+    "geckodriver": "^1.16.2",
+    "mocha": "^6.1.2",
+    "npm": "^6.9.0",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "sleep": "^6.0.0"
+  },
+  "devDependencies": {
+    "commander": "^2.20.0",
+    "es6-promise-pool": "^2.5.0",
+    "sitemap-generator": "^8.3.3",
+    "sitemap-to-array": "^6.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
