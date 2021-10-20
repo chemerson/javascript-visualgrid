@@ -11,7 +11,8 @@ const { Eyes, VisualGridRunner, Target, FileLogHandler, ConsoleLogHandler, Confi
     .build();
 
   // Initialize the eyes SDK and set your private API key.
-  const eyes = new Eyes(new VisualGridRunner());
+  runnerOptions = new RunnerOptions().testConcurrency(50);
+  const eyes = new Eyes(new VisualGridRunner(new VisualGridRunner(runnerOptions)));
 
   //eyes.setLogHandler(new ConsoleLogHandler(true));
   eyes.setLogHandler(new FileLogHandler(true));
